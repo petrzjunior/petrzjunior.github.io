@@ -1,7 +1,17 @@
-﻿var canvas;
-function init()
-{
-	canvas = document.getElementById("canvas");
-	canvas.height = window.height;
-	canvas.width = window.widht;
-}
+﻿$(function() {
+	var canvas = $("#c");
+	var canvasHeight;
+	var canvasWidth;
+	};
+	
+	function init() {
+		updateCanvasDimensions();
+		
+		
+	};
+	function updateCanvasDimensions() {
+		canvas.attr({height: $(window).height(), width: $(window).width()});
+		canvasWidth = canvas.width();
+		canvasHeight = canvas.height();
+		draw();
+	};
