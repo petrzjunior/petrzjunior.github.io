@@ -6,7 +6,6 @@ var ctx = canvas.getContext("2d");
 
 var canvasHeight;
 var canvasWidth;
-//var raf;
 var hroudy = [];
 var G = 10;
 var m = 10;
@@ -64,6 +63,7 @@ Hrouda.prototype.vypocti = function () {
         if (r != 0) {
             if (r <= (Math.sqrt(hroudy[i].velikost / Math.PI) + Math.sqrt(this.velikost / Math.PI))) {
                 this.velikost += hroudy[i].velikost;
+                this.vektor.pridej(houdy[i].velikost, hroudy[i].smer);
                 hroudy.splice(i, 1);
 
                 hroudyLenght = hroudy.length;
