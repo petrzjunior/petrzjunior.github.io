@@ -63,7 +63,7 @@ Hrouda.prototype.vypocti = function () {
         if (r != 0) {
             if (r <= (Math.sqrt(hroudy[i].velikost / Math.PI) + Math.sqrt(this.velikost / Math.PI))) {
                 this.velikost += hroudy[i].velikost;
-                this.vektor.pridej(houdy[i].vektor.smer, hroudy[i].vektor.velikost);
+                this.vektor.pridej(houdy[i].Vektor.smer, hroudy[i].Vektor.delka);
                 hroudy.splice(i, 1);
 
                 hroudyLenght = hroudy.length;
