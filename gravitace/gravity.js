@@ -65,7 +65,6 @@ Hrouda.prototype.vypocti = function () {
                 this.velikost += hroudy[i].velikost;
                 this.vektor.pridej(houdy[i].vektor.smer, hroudy[i].vektor.delka);
                 hroudy.splice(i, 1);
-
                 hroudyLenght = hroudy.length;
             }
 
