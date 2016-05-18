@@ -1,4 +1,4 @@
-html {
+/*html {
     min-height: 100%;
     position: relative;
 }
@@ -15,7 +15,7 @@ body {
 
 .footer > .container > p {
   margin-top: 20px;
-}
+}*/
 
 .navigace-ramecek {
   border: solid 1px green;
