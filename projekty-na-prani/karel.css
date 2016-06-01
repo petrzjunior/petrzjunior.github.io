@@ -1,0 +1,7 @@
+.text + div {
+  display: none;
+}
+
+.text:hover + div {
+  display: block;
+}
