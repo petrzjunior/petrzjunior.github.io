@@ -1,0 +1,7 @@
+.reseni {
+    background-color: #333;
+    font-size: 3em;
+}
+.reseni:hover, .click{
+    background-color: #fff;
+}
