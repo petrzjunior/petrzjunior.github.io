@@ -17,6 +17,7 @@ function parseCSV() {
   Papa.parse("kytky.csv", {
     download: true,
     encoding: "UTF-8",
+    delimiter: ";",
     comments: "#",
     complete: function (results) {
       seznamKytek = results.data;
