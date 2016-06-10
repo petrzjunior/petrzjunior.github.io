@@ -7,11 +7,11 @@ function nahodnyObrazek() {
   $("#obrazek").attr("src", adresa);
   $(".reseni-text").html(nazev);
   index++;
+  $("#kytky-progress").css("width", index*2 + "%");
   if(index >= 50) {
     seznamKytek = shuffle(seznamKytek);
     index = 0;
   }
-  $("#kytky-progress").css("width", index + "%");
 }
 function parseCSV() {
   Papa.parse("kytky.csv", {

@@ -5,3 +5,10 @@
 .reseni:hover, .click{
     background-color: #fff;
 }
+#obr-div {
+    height: 300px;
+    margin-bottom: 20px;
+}
+#obr-div  #obrazek{
+    height: 100%;
+}
