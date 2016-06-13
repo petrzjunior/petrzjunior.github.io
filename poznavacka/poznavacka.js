@@ -1,4 +1,4 @@
-var seznamKytek;
+﻿var seznamKytek;
 var index = 0;
 function nahodnyObrazek() {
   var nazev = seznamKytek[index][0];
@@ -22,6 +22,8 @@ function parseCSV() {
     complete: function (results) {
       seznamKytek = results.data;
       seznamKytek = shuffle(seznamKytek);
+      $("#pripravit-glyph").removeClass("glyphicon-circle-arrow-down");
+      $("#pripravit-glyph").addClass("glyphicon-ok");
     }
   });
 }
