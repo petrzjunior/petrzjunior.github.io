@@ -1,0 +1,47 @@
+.scene, .layer {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.scene {
+    min-height: 460px;
+    position: relative;
+    overflow: hidden;
+}
+
+.layer {
+    position: absolute;
+}
+
+.pozadi>img {
+    position: relative;
+    ;
+    left: 10%;
+}
+
+.vlk>img {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+}
+
+.karkulka>* {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+
+div.bublina {
+    position: relative;
+    top: 45%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 3px solid #0a0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px #000;
+}

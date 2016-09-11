@@ -41,17 +41,9 @@ function shuffle(array) {
 $('.reseni').click(function () {
   $(".reseni").toggleClass("click");
 });
-$(function(){
-  $( ".pripravit" ).bind( "tap", tapHandler );
- 
-  function tapHandlerP( event ){
-    parseCSV();
-  }
-});
-$(function(){
-  $( ".nahodna" ).bind( "tap", tapHandler );
- 
-  function tapHandlerN( event ){
-    nahodnyObrazek();
-  }
-});
+$( document ).on( "vclick", ".nahodna", function() {
+  nahodnyObrazek();
+  });
+$( document ).on( "vclick", ".pripravit", function() {
+  parseCSV();
+  });

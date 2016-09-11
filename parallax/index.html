@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+    <!--<script src="index.js" charset="utf-8"></script>-->
+    <script src="jquery.parallax.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <ul id="scene">
+        <li class="layer pozadi" data-depth="0.00"><img style="width: 80%;" src="http://socialforest.org/wp-content/uploads/2014/04/Forest-Green-Wallpaper.jpg" alt="" /></li>
+        <li class="layer vlk" data-depth="0.20"><img style="width: 3%" src="http://orig03.deviantart.net/c972/f/2013/168/9/b/black_wolf_precut_by_illuminicense-d69ee8k.png" alt="" /></li>
+        <li class="layer karkulka" data-depth="0.70">
+            <div class="bublina"><button>Bojovat s vlkem</button> nebo <button>Vrátit vlka do pokébalu</button></div><img style="width: 20%; " src="http://www.clipartlord.com/wp-content/uploads/2013/11/red-riding-hood.png" alt="" /></li>
+    </ul>
+
+    <script type="text/javascript">
+        $('#scene').parallax();
+    </script>
+</body>
