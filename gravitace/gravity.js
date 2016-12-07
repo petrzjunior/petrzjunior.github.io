@@ -63,7 +63,7 @@ Hrouda.prototype.vypocti = function () {
         if (r != 0) {
             if (r <= (Math.sqrt(hroudy[i].velikost / Math.PI) + Math.sqrt(this.velikost / Math.PI))) {
                 this.velikost += hroudy[i].velikost;
-                this.vektor.pridej(houdy[i].vektor.smer, hroudy[i].vektor.delka);
+                this.vektor.pridej(hroudy[i].vektor.smer, hroudy[i].vektor.delka);
                 hroudy.splice(i, 1);
                 hroudyLenght = hroudy.length;
             }
@@ -100,9 +100,9 @@ updateCanvasDimensions();
 
 generuj(100, "kruh");
 
-var id = setInterval(prekresli, 20);
+/*var id = setInterval(prekresli, 20);
 
-var lastLoop = new Date;
+var lastLoop = new Date;*/
 prekresli();
 //raf = window.requestAnimationFrame(prekresli);
 
@@ -151,7 +151,7 @@ function prekresli() {
     ctx.fillRect(0, 0, canvasWidth, canvasHeight);
     //ctx.clearRect(0, 0, canvasWidth, canvasHeight);
 
-    for (var i = 0; i < hroudy.length; i++) {
+    for (var i = hroudy.length - 1; i >= 0; i--) {
         hroudy[i].vypocti();
 
         if ((hroudy[i].x * hroudy[i].y > 10000000) || (hroudy[i].x * hroudy[i].y < -10000000)) {
@@ -159,9 +159,9 @@ function prekresli() {
         }
 
         else {
-            if ((hroudy[i].x > 0 && hroudy[i].x < canvasWidth && hroudy[i].y > 0 && hroudy[i].y < canvasHeight)) {
+            //if ((hroudy[i].x > 0 && hroudy[i].x < canvasWidth && hroudy[i].y > 0 && hroudy[i].y < canvasHeight)) {
                 hroudy[i].vymaluj();
-            }
+            //}
 
             hroudy[i].posun();
         }
@@ -171,7 +171,7 @@ function prekresli() {
 
     ctx.fillText(fps, 0, 20);
 
-    //raf = window.requestAnimationFrame(prekresli);
+    requestAnimationFrame(draw);
 }
 
 // #endregion
