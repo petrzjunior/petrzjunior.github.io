@@ -1,5 +1,5 @@
-﻿
-var seznamKytek;
+﻿var kategorie = [];
+var seznam = [];
 var index = 0;
 
 function nahodnyObrazek() {
@@ -25,12 +25,25 @@ function parseCSV() {
         complete: function(results) {
             var seznamKat = results.data;
             $("#kat-list").empty();
+            kategorie = [];
             seznamKat.forEach(function(kat) {
-                $("#kat-list").append('<li class="list-group-item kat-item active noselect"><i class="fa fa-lg fa-check-square-o" aria-hidden="true"></i> ' + kat[1] + '</li>');
+                $("#kat-list").append('<li class="list-group-item kat-item active noselect" data-kat=' + kat[0] + '><i class="fa fa-lg fa-check-square-o" aria-hidden="true"></i> ' + kat[1] + '</li>');
+                kategorie.push(kat[0]);
             });
             $(".kat-item").click(function() {
                 $(this).toggleClass("active");
-                $("i", this).toggleClass("fa-square-o").toggleClass("fa-check-square-o")
+                $("i", this).toggleClass("fa-square-o").toggleClass("fa-check-square-o");
+                var kat = $(this).attr("data-kat");
+                var on = $(this).hasClass("active");
+                var index = kategorie.indexOf(kat);
+                if(on && index == -1)
+                {
+                  kategorie.push(kat);
+                }
+                else if(!on && index != -1)
+                {
+                  kategorie.splice(index, 1);
+                }
             });
         }
     });
