@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+  <script src="https://use.fontawesome.com/b709bdf18e.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="poznavacka.css" rel="stylesheet">
@@ -17,24 +18,28 @@
           <p class="lead">Verze 2.0-beta</p>
         </div>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-6 col-sm-12">
             <div id="obr-div">
               <img id="obrazek" class="img img-responsive" src="http://lorempixel.com/300/300/" />
             </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
             <div class="card card-block">
               <h4 class="card-title">Řešení:</h4>
               <div class="reseni">
-                <p class="reseni-text">-nic-</p>
+                <p class="reseni-text noselect">-nic-</p>
               </div>
               <p class="card-text">Najeďte nebo klikněte.</p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12">
-            <a id="pripravit" href="#!" onclick="parseCSV(); return false;" class="btn btn-secondary"><span id="pripravit-glyph" class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span>Načíst obrázky</a>
-            <a id="nahodna" href="#!" onclick="nahodnyObrazek(); return false;" class="btn btn-primary">Náhodný obrázek</a>
-          </div>
+        <div class="col-md-6 col-sm-12">
+          <ul class="list-group" id="kat-list">
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12">
+          <a id="pripravit" href="#!" onclick="parseCSV(); return false;" class="btn btn-secondary"><span id="pripravit-glyph" class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span>Načíst obrázky</a>
+          <a id="nahodna" href="#!" onclick="nahodnyObrazek(); return false;" class="btn btn-primary">Další obrázek</a>
         </div>
         <div class="row" style="margin-top: 20px">
           <div class="col-md-12">
