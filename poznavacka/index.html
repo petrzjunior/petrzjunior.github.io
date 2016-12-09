@@ -2,7 +2,6 @@
 
 <head>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   <script src="https://use.fontawesome.com/b709bdf18e.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,8 +37,9 @@
           </ul>
         </div>
         <div class="col-md-6 col-sm-12">
-          <a id="pripravit" href="#!" onclick="parseCSV(); return false;" class="btn btn-secondary"><span id="pripravit-glyph" class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span>Načíst obrázky</a>
-          <a id="nahodna" href="#!" onclick="nahodnyObrazek(); return false;" class="btn btn-primary">Další obrázek</a>
+          <a id="pripravit" href="#!" onclick="parseJSON(); return false;" class="btn btn-secondary"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i> Načíst</a>
+          <a id="nahodna" href="#!" onclick="dalsi(); return false;" class="btn btn-primary">Další obrázek</a>
+          <a id="zamichat" href="#!" onclick="return false;" class="btn btn-secondary disabled"><i class="fa fa-lg fa-random" aria-hidden="true"></i> Zamíchat</a>
         </div>
         <div class="row" style="margin-top: 20px">
           <div class="col-md-12">
@@ -55,7 +55,7 @@
   </div>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
   <script src="papaparse.js"></script>
   <script src="poznavacka.js"></script>
 </body>
