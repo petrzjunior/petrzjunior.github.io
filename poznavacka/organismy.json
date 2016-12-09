@@ -1,0 +1,50 @@
+[
+  {
+    "nazev":"mekkysi",
+    "napis":"Měkkýši",
+    "zapnuto":true,
+    "organismy":[
+      {
+        "nazev":"bahenka živorodá",
+        "obrazky":[
+          {
+            "url":"http://www.mikuska.borec.cz/prirodopis/poznavani/plzi/bahenka%20%C5%BEivorod%C3%A1.jpg"
+          },
+          {
+            "url":"http://akvapedie.cz//images/2023.jpeg"
+          },
+          {
+            "url":"http://www.biolib.cz/IMG/GAL/243440.jpg"
+          }
+        ]
+      },
+      {
+        "nazev":"hlemýžď zahradní",
+        "obrazky":[
+          {
+            "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Grapevinesnail_01a.jpg/270px-Grapevinesnail_01a.jpg"
+          },
+          {
+            "url":"http://wiki.rvp.cz/@api/deki/files/7297/=hlemyzd3.jpg"
+          },
+          {
+            "url":"http://www.naturfoto.cz/fotografie/ostatni/hlemyzd-zahradni-21968.jpg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nazev":"korysi",
+    "napis":"Korýši",
+    "zapnuto":false,
+    "obrazky":[
+      {
+        "url":"abc.xyz"
+      },
+      {
+        "url":"abc.xyz"
+      }
+    ]
+  }
+]
