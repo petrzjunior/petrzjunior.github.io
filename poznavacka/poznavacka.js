@@ -4,6 +4,7 @@ function parseJSON() {
     $.getJSON('organismy.json', function(data) {
         json = data;
     });
+    $("#kat-list").empty();
     json.forEach(function(kat) {
         $("#kat-list").append('<li class="list-group-item kat-item ' + (kat.zapnuto ? 'active' : '') + ' noselect">' + kat.napis + '</li>');
     });
