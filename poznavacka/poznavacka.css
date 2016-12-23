@@ -17,6 +17,10 @@
     height: 100%;
 }
 
+.odsazeni {
+  padding: 10px 5px;
+}
+
 .noselect {
     -webkit-touch-callout: none;
     -webkit-user-select: none;

@@ -31,19 +31,413 @@
             "url":"http://www.naturfoto.cz/fotografie/ostatni/hlemyzd-zahradni-21968.jpg"
           }
         ]
-      }
-    ]
-  },
-  {
-    "nazev":"korysi",
-    "napis":"Korýši",
-    "zapnuto":false,
-    "obrazky":[
-      {
-        "url":"abc.xyz"
       },
       {
-        "url":"abc.xyz"
+        "nazev":"homolice středomořská",
+        "obrazky":[
+          {
+            "url":"http://www.biolib.cz/IMG/GAL/172263.jpg"
+          },
+          {
+            "url":"http://www.zoologie.frasma.cz/mmp%200208%20mekkysi/Obr.020813.homolice%20stredomorska.LJ.jpg"
+          },
+          {
+            "url":"http://www.biolib.cz/IMG/GAL/95301.jpg"
+          }
+        ]
+      },
+      {
+        "nazev":"hřebenatka jakubská",
+        "obrazky":[
+          {
+            "url":"http://www.mikuska.borec.cz/prirodopis/poznavani/mlzi/h%C5%99ebenatka%20jakubsk%C3%A1.jpg"
+          },
+          {
+            "url":"http://www.zshavl.cz/prirodopis/materialy/7/mekkysi/mekkysi_poznavacka/2.jpg"
+          },
+          {
+            "url":"http://www.guh.cz/edu/bi/biologie_bezobratli/foto06/foto_020.jpg"
+          }
+        ]
+      },
+      {
+        "nazev":"chobotnice pobřežní",
+        "obrazky":[
+          {
+            "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Octopus_vulgaris_2.jpg/320px-Octopus_vulgaris_2.jpg"
+          },
+          {
+            "url":"http://1gr.cz/fotky/idnes/10/032/cl6/TAJ31c96b_chobotnice_pobrezni.jpg"
+          },
+          {
+            "url":"http://www.biolib.cz/IMG/GAL/171528.jpg"
+          }
+        ]
+      },
+      {
+        "nazev":"jantarka obecná",
+        "obrazky":[
+          {
+            "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Succinea_putris_2.jpg/270px-Succinea_putris_2.jpg"
+          },
+          {
+            "url":"http://www.biolib.cz/IMG/GAL/10773.jpg"
+          },
+          {
+            "url":"http://www.zoologie.frasma.cz/mmp%200208%20mekkysi/Obr.020828.jantarka.OS_zmensenina.jpg"
+          }
+        ]
+      },
+      {
+        "nazev":"jehlanka obecná",
+        "obrazky":[
+          {
+            "url":"http://www.idscaro.net/sci/01_coll/pics/gastro/cerithiidae/cerithium_vulgatum1.jpg"
+          },
+          {
+            "url":"http://www.animalbase.uni-goettingen.de/animalbaseimage/Cerithium-vulgatum_01.jpg"
+          },
+          {
+            "url":"http://www.animalbase.uni-goettingen.de/animalbaseimage/Cerithium-vulgatum_03.jpg"
+          }
+        ]
+      },
+      [
+      {
+        "nazev": "kamomil říční",
+        "obrazky": [
+          {
+            "url": "http://www.xenophora.org/Iconographie/Planorbidae/Ancylus%20fluviatilis%206/Ancylus%20fluviatilis%206.jpg"
+          },
+          {
+            "url": "http://www.molluscs.at/images/weichtiere/schnecken/suesswasser/a_fluviatilis_mrkvicka2.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/97859.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "křídlatec",
+        "obrazky": [
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/147982.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/12323.jpg"
+          },
+          {
+            "url": "http://www.morskahouba.cz/uws_images/eshop/eshop-musle/strombus-lentiginosus.gif"
+          }
+        ]
+      },
+      {
+        "nazev": "loděnka hlubinná",
+        "obrazky": [
+          {
+            "url": "http://www.chovzvirat.cz/images/zvirata/lodenka-hlubinna_fko98sv.jpg"
+          },
+          {
+            "url": "http://1gr.cz/fotky/idnes/12/122/cl6/BAN47f948_LodnkahlubinnNautiluspompilius.jpg"
+          },
+          {
+            "url": "http://f.ximg.cz/img2/9961/16629961_4.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "okružák ploský",
+        "obrazky": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Posthornschnecke1.jpg/225px-Posthornschnecke1.jpg"
+          },
+          {
+            "url": "http://www.snailworld.eu/images/uploads/1_a_okruzak_plosky_1.jpg"
+          },
+          {
+            "url": "http://www.rybsvaz.cz/zu/slides/Okruzakplosky.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "ostranka jaderská",
+        "obrazky": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Bolinus_brandaris_01.jpg/270px-Bolinus_brandaris_01.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/10194.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/148962.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "páskovka",
+        "obrazky": [
+          {
+            "url": "http://romankomender.cz/photos/paskovka-kerova-cepaea-hortensis-610.jpg"
+          },
+          {
+            "url": "https://terarka.net/obr/atlas/max/403.jpg"
+          },
+          {
+            "url": "http://www.zsmsstezery.cz/assets/Image.ashx?id_org=400088&id_obrazky=2136&datum=26.4.2014+22%3A17%3A27"
+          }
+        ]
+      },
+      {
+        "nazev": "perlorodka říční",
+        "obrazky": [
+          {
+            "url": "http://itras.cz/fotogalerie/blanice/velke/blanice-016.jpg"
+          },
+          {
+            "url": "http://img.ceskatelevize.cz/program/porady/880589/foto09/298327271910009_perl04.jpg?1362753875"
+          },
+          {
+            "url": "http://www.chovzvirat.cz/images/zvirata/perlorodka-ricni_vgh91hi.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "perlotvorka mořská",
+        "obrazky": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Pinctada_margaritifera_MHNT.CON.2002.893.jpg/258px-Pinctada_margaritifera_MHNT.CON.2002.893.jpg"
+          },
+          {
+            "url": "https://imageth.uloz.to/a/8/8/a8825ddf5858c3feff45a735e0f4aafd.640x360.jpg"
+          },
+          {
+            "url": "http://www.zoologie.frasma.cz/mmp%200208%20mekkysi/Obr.020837b.perlotvorka.OS_zmensenina.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "plovatka bahenní",
+        "obrazky": [
+          {
+            "url": "http://www.naturabohemica.cz/images/Lymnea%20stagnalis_996.jpg"
+          },
+          {
+            "url": "http://zoo.wendys.cz/foto/f358.jpg"
+          },
+          {
+            "url": "http://www.rybsvaz.cz/zu/slides/Plovatkabahenni.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "plzák lesní",
+        "obrazky": [
+          {
+            "url": "http://www.snailworld.eu/images/uploads/1_a_plzak_lesni_od_zdenka_chalupy.jpg"
+          },
+          {
+            "url": "http://www.naturabohemica.cz/wp-content/uploads/2010/08/arion-rufus.jpg"
+          },
+          {
+            "url": "http://www.radula.estranky.cz/img/picture/182/plz%C3%A1k.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "přílipka miskovitá",
+        "obrazky": [
+          {
+            "url": "http://www.guh.cz/edu/bi/biologie_bezobratli/foto06/foto_001.jpg"
+          },
+          {
+            "url": "http://img8.rajce.idnes.cz/d0802/7/7365/7365228_875d04bc845b5dd9ca92d386447865b3/images/Prilipka_miskovita.jpg"
+          },
+          {
+            "url": "http://www.zoologie.frasma.cz/mmp%200208%20mekkysi/Obr.020810.prilipky.OS.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "sépie obecná",
+        "obrazky": [
+          {
+            "url": "http://www.chovzvirat.cz/images/zvirata/sepie-obecna_kmi74ji.jpg"
+          },
+          {
+            "url": "http://www.bezobratli.estranky.cz/img/original/51/sepie-3.jpg"
+          },
+          {
+            "url": "http://nd06.jxs.cz/366/704/1eeb426663_91105479_o2.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "slávka jedlá",
+        "obrazky": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Miesmuscheln_Mytilus_2.jpg/300px-Miesmuscheln_Mytilus_2.jpg"
+          },
+          {
+            "url": "http://data.labuznik.cz/labuznik/images/640x480/14421.jpg"
+          },
+          {
+            "url": "http://www.neptunfood.cz/data/images/informace/morske-plody-slavka-jedla.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "slimák popelavý",
+        "obrazky": [
+          {
+            "url": "http://zoo.wendys.cz/foto/f352.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/932.jpg"
+          },
+          {
+            "url": "http://www.hlasek.com/foto/limax_cinereoniger_ae0948.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "srdcovka jedlá",
+        "obrazky": [
+          {
+            "url": "http://www.zoologie.frasma.cz/mmp%200208%20mekkysi/Obr.020838a.srdcovka.Acanthocardia.LJ_zmensenina.jpg"
+          },
+          {
+            "url": "http://media0.webgarden.cz/images/media0:510528d458e65.jpg/srdcovka%20jedl%C3%A12.jpg"
+          },
+          {
+            "url": "http://blogadmin.idnes.cz/blog/5634/203954/srdcovka-hliznata.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "škeble rybničná",
+        "obrazky": [
+          {
+            "url": "http://www.naturabohemica.cz/images/Anodonta_cygnea_1684.jpg"
+          },
+          {
+            "url": "http://www.vodni-dum.cz/userfiles/images/Vodn%C3%AD%20d%C5%AFm/%C5%A1keble_biolib.jpg"
+          },
+          {
+            "url": "http://crsmo-litomysl.wbs.cz/sladkovodni_ryby/skeble_rybnicna.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "tritónka",
+        "obrazky": [
+          {
+            "url": "http://www.gastropods.com/Shell_Images/C-Conus/Charonia_tritonis_1.jpg"
+          },
+          {
+            "url": "http://www.malawicichlidhomepage.com/aquainfo/haronia009.jpg"
+          },
+          {
+            "url": "http://www.kudalaut.eu/thumb/400/w/categorie-foto/4044.jpg/Triton-Charonia-tritonis-Predation-on-starfish-Linckia-sp..jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "ústřice jedlá",
+        "obrazky": [
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/10197.jpg"
+          },
+          {
+            "url": "http://www.cigarclubmagazine.cz/underwood/download/images/ustrice3.jpg"
+          },
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Ostrea_edulis_Marennes_p1050140.jpg/250px-Ostrea_edulis_Marennes_p1050140.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "ušeň mořská",
+        "obrazky": [
+          {
+            "url": "https://srecepty.cz/system/images/1260/full.2710.jpg"
+          },
+          {
+            "url": "http://nd05.jxs.cz/799/305/066ff6f0c1_81253593_o2.jpg"
+          },
+          {
+            "url": "http://www.morskahouba.cz/uws_images/eshop/eshop-musle/corrugata-11-12-cm.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "velevrub malířský",
+        "obrazky": [
+          {
+            "url": "http://www.chovzvirat.cz/images/zvirata/velevrub-malirsky_hxi38br.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/1751.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/959.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "věžule šroubovitá",
+        "obrazky": [
+          {
+            "url": "http://www.conchology.be/images/Label/820000sup/828496.jpg"
+          },
+          {
+            "url": "http://www.shells-of-aquarius.com/images/brown-turretellas-small.jpg"
+          },
+          {
+            "url": "http://www.gastropods.com/Shell_Images/T/Turritella_turbona_3.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "zavinutec",
+        "obrazky": [
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/20387.jpg"
+          },
+          {
+            "url": "http://lastury.wz.cz/cypraea_arabica.jpg"
+          },
+          {
+            "url": "http://eshop.prirodniny.cz/Fotografie/Zbozi/Original/cypraea_valentiai1_124m.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "zej obecný (obrovský)",
+        "obrazky": [
+          {
+            "url": "http://www.zoologie.frasma.cz/mmp%200208%20mekkysi/Obr.020819.zej.Aplysia.LJ_zmensenina.JPG"
+          },
+          {
+            "url": "http://italie-kalabrie.wz.cz/foto/zej.jpg"
+          },
+          {
+            "url": "http://www.biolib.cz/IMG/GAL/112733.jpg"
+          }
+        ]
+      },
+      {
+        "nazev": "zéva obrovská",
+        "obrazky": [
+          {
+            "url": "http://www.karipearls.com/images/tridacna-shell.jpg"
+          },
+          {
+            "url": "https://sc02.alicdn.com/kf/HTB164s_KXXXXXa2XFXXq6xXFXXXY/Tridacna-Gigas-Clam.jpg"
+          },
+          {
+            "url": "http://akvapedie.cz//images/3006.jpeg"
+          }
+        ]
       }
     ]
   }
