@@ -1,0 +1,44 @@
+.main {
+  margin-left: 80px
+}
+#nav {
+    height: 100%;
+    width: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #263238;
+    overflow-x: hidden;
+    padding-top: 10%;
+}
+
+#nav a {
+    display: block;
+    height: 80px;
+    width: 80px;
+}
+
+#nav div {
+    display: block;
+    height: 80px;
+    width: 80px;
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu-atom {
+    background-color: #0d47a1
+}
+
+.atom {
+    background: url(atom.svg);
+}
+
+.menu-flower {
+    background-color: #1b5e20
+}
+
+.flower {
+    background: url(flower.svg);
+}
