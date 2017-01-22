@@ -1,60 +1,37 @@
 <!DOCTYPE html>
 
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-  <script src="https://use.fontawesome.com/b709bdf18e.js"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="poznavacka.css" rel="stylesheet">
+  <link href="flexbox.css" rel="stylesheet">
+  <link href="icons.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="jumbotron">
-          <h1 class="display-3">Poznávačka master</h1>
-          <p class="lead">Verze 2.0-beta</p>
+  <div class="page">
+    <div class="jumbotron">
+      <h1 class="display-3">Poznávačka master</h1>
+      <p class="lead">stvořil Petr Zahradník</p>
+    </div>
+    <div class="container">
+      <div class="obrazek-div">
+        <img class="obrazek" src="placeholder-300.png" />
+      </div>
+      <div class="reseni-div card">
+        <h4 class="card-title">Řešení:</h4>
+        <div class="reseni">
+          <p class="reseni-text noselect">-nic-</p>
         </div>
-        <div class="row">
-          <div class="col-lg-6 col-md-12 odsazeni">
-            <div id="obr-div">
-              <img id="obrazek" class="img img-responsive" src="http://lorempixel.com/300/300/" />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12 odsazeni">
-            <div class="card card-block">
-              <h4 class="card-title">Řešení:</h4>
-              <div class="reseni">
-                <p class="reseni-text noselect" style="padding-left: 10px">-nic-</p>
-              </div>
-              <p class="card-text">Najeďte nebo klikněte.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12 odsazeni">
-          <ul class="list-group" id="kat-list">
-          </ul>
-        </div>
-        <div class="col-md-6 col-sm-12 odsazeni">
-          <a id="pripravit" href="#!" onclick="parseJSON(); return false;" class="btn btn-secondary"><i class="fa fa-lg fa-tasks" aria-hidden="true"></i> Načíst</a>
-          <a id="nahodna" href="#!" onclick="dalsi(); return false;" class="btn btn-primary">Další obrázek</a>
-          <a id="zamichat" href="#!" onclick="return false;" class="btn btn-secondary disabled"><i class="fa fa-lg fa-random" aria-hidden="true"></i> Zamíchat</a>
-        </div>
-        <div class="row" style="margin-top: 20px">
-          <div class="col-md-12">
-            <div class="progress">
-              <div id="kytky-progress" class="progress-bar" role="progressbar">
-                <span class="sr-only">x% Complete</span>
-              </div>
-            </div>
-          </div>
-        </div>
+        <p class="card-text">Najeďte nebo klikněte.</p>
+      </div>
+      <div class="seznam-div">
+        <ul class="list-group" id="kat-list"></ul>
+      </div>
+      <div class="tlacitka-div">
+        <a id="nahodna" href="#!" onclick="dalsi(); return false;" class="btn"><i class="icon-right"></i>Další obrázek</a>
       </div>
     </div>
   </div>
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-  <script src="papaparse.js"></script>
   <script src="poznavacka.js"></script>
 </body>
