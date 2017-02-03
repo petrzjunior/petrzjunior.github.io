@@ -98,6 +98,7 @@ li.list-group-item.active {
 .obrazek-div {
   flex: 1 1 auto;
   width: 450px;
+  margin-bottom: 30px;
 }
 .reseni-div {
   flex: 1 1 auto;
@@ -118,6 +119,11 @@ li.list-group-item.active {
   margin-top: 0;
   margin-bottom: .5rem;
 }
+
+.copyright {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 670px) {
   .display-3{
     font-size: 48px;
@@ -185,4 +191,7 @@ li.active::before {
 
 li:not(.active)::before {
   content: "\f096";
+}
+.badges img {
+  height: 80px
 }

@@ -14,9 +14,10 @@
       <p class="lead">stvořil Petr Zahradník</p>
     </div>
     <div class="container">
-      <div class="obrazek-div">
-        <img class="obrazek" src="placeholder-300.png" />
-      </div>
+      <figure class="obrazek-div">
+        <img class="obrazek" src="splash.jpg">
+        <figcaption class="copyright"></figcaption>
+      </figure>
       <div class="reseni-div card">
         <h4 class="card-title">Řešení:</h4>
         <div class="reseni">
@@ -25,10 +26,17 @@
         <p class="card-text">Najeďte nebo klikněte.</p>
       </div>
       <div class="seznam-div">
-        <ul class="list-group" id="kat-list"></ul>
+        <ul class="list-group" id="kat-list">
+          <li class="list-group-item noselect" id="mekkysi" style="text-decoration: line-through">Měkkýši</li>
+          <li class="list-group-item active noselect" id="clenovci">Členovci</li>
+        </ul>
       </div>
       <div class="tlacitka-div">
         <a id="nahodna" href="#!" onclick="dalsi(); return false;" class="btn"><i class="icon-right"></i>Další obrázek</a>
+      </div>
+      <div class="badges">
+        <a href='https://play.google.com/store/apps/details?id=cz.clexpert.poznavacka&utm_source=http://petrzjunior.github.io/poznavacka/&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Nyní na Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/cs_badge_web_generic.png'/></a>
+        <a href="https://www.microsoft.com/store/apps/9pfg9clhg3nl?ocid=badge"><img src="https://assets.windowsphone.com/92051e30-484c-4b7a-9cab-3571c606d58c/Czech_Get_it_Win_10_InvariantCulture_Default.png" alt="Získat ve Windows 10" /></a>
       </div>
     </div>
   </div>
