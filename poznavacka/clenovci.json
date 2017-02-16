@@ -155,14 +155,14 @@
   },
   {
     "ID": "23",
-    "Name": "krab pobrezni",
+    "Name": "krab pobřežní",
     "Image": "images/clenovci/krab-pobrezni-1.jpg",
     "Author": "Hans Hillewaert",
     "License": "CC BY-SA 4.0"
   },
   {
     "ID": "24",
-    "Name": "krab pobrezni",
+    "Name": "krab pobřežní
     "Image": "images/clenovci/krab-pobrezni-2.jpg",
     "Author": "John Haslam",
     "License": "CC BY 2.0"
@@ -1005,7 +1005,7 @@
     "Name": "roháč obecný",
     "Image": "images/clenovci/rohac-obecny-2.jpg",
     "Author": "Simon A. Eugster",
-    "License": "CC BY-SA 3.0"
+    "License": "CC BY 3.0"
   },
   {
     "ID": "145",
