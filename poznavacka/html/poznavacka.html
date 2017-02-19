@@ -1,0 +1,31 @@
+<div class="poznavackaContainer" ng-controller="poznavackaCtrl">
+  <figure class="obrazek-div">
+    <img class="obrazek" ng-src="{{thisOne.Image | default: 'splash.jpg'}}">
+    <figcaption class="copyright" ng-show="thisOne.Name">{{thisOne.Author + ", " + thisOne.License}}</figcaption>
+  </figure>
+  <div class="reseni-div card">
+    <h4 class="card-title">Řešení:</h4>
+    <div class="reseni" ng-model="showSolution" ng-class="{show: showSolution}" ng-click="showSolution = !showSolution">
+      <p class="reseni-text noselect">{{thisOne.Name | default: 'Doporučuje 9 z 10 biologů'}}</p>
+    </div>
+    <p class="card-text">Najeďte nebo klikněte.</p>
+  </div>
+  <div class="seznam-div">
+    <ul class="list-group" id="kat-list">
+      <!--<li class="list-group-item noselect" id="mekkysi" style="text-decoration: line-through">Měkkýši</li>
+      <li class="list-group-item active noselect" id="clenovci">Členovci</li>-->
+      <li class="list-group-item noselect" ng-repeat="set in setList" ng-class="{active: set.enabled}" ng-click="set.enabled = !set.enabled; updateSelected();" ng-model="set.enabled" id="placeholder">
+        <span class="icon-check" ng-show="set.enabled"></span>
+        <span class="icon-check-empty" ng-show="!set.enabled"></span>
+        {{set.desc}}
+      </li>
+    </ul>
+  </div>
+  <div class="tlacitka-div">
+    <a id="nahodna" href=""" ng-click="next()" class="btn"><i class="icon-right"></i>Další obrázek</a>
+  </div>
+  <div class="badges">
+    <a href='https://play.google.com/store/apps/details?id=cz.clexpert.poznavacka&utm_source=http://petrzjunior.github.io/poznavacka/&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Nyní na Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/cs_badge_web_generic.png' /></a>
+    <a href="https://www.microsoft.com/store/apps/9pfg9clhg3nl?ocid=badge"><img src="https://assets.windowsphone.com/92051e30-484c-4b7a-9cab-3571c606d58c/Czech_Get_it_Win_10_InvariantCulture_Default.png" alt="Získat ve Windows 10" /></a>
+  </div>
+</div>

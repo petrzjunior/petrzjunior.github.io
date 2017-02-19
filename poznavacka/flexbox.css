@@ -33,6 +33,32 @@ p {
   border-radius: 0.4rem;
   margin-bottom: 32px;
 }
+
+.navbar {
+  list-style-type: none;
+  margin: 20px 10px;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  width: 100px;
+  padding: 10px;
+  background-color: #C8E6C9;
+  color: #212121;
+  border-radius: 0.6rem;
+  text-decoration: none;
+}
+
+.navbar li a.navThis {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+
 .card {
   border: 2px solid #BDBDBD;
   border-radius: 0.3rem;
@@ -85,14 +111,14 @@ li.list-group-item.active {
   display: inline-block;
   font-size: 16px;
 }
-.container {
+.poznavackaContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: flex-start;
   align-items: stretch;
 }
-.container div {
+.poznavackaContainer div {
   margin: 10px;
 }
 .obrazek-div {
@@ -146,7 +172,7 @@ li.list-group-item.active {
 .list-group:empty {
   display: none;
 }
-.reseni:hover, .click {
+.reseni:hover, .reseni.show {
   background-color: #fff;
 }
 .list-group-item.active:hover, .btn:hover {
@@ -156,7 +182,7 @@ li.list-group-item.active {
   height: 300px;
 }
 .obrazek {
-  height: 100%;
+  max-height: 100%;
   max-width: 100%;
 }
 
@@ -168,30 +194,32 @@ li.list-group-item.active {
   -ms-user-select: none;
   user-select: none;
 }
-li.list-group-item:before {
-  font-family: "icons";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1em;
-  margin-left: .2em;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-li.active::before {
-  content: "\e801";
-}
-
-li:not(.active)::before {
-  content: "\f096";
-}
 .badges img {
   height: 80px
+}
+
+/* --- GALERIE --- */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: flex-start;
+  align-items: stretch;
+}
+.gallery figure {
+  max-width: 22%;
+  margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .gallery figure {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gallery figure {
+    max-width: 90%;
+  }
 }
