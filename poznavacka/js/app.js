@@ -24,7 +24,10 @@ poznavackaApp.factory("loaderService", function (poznavackaConfig) {
 poznavackaApp.constant("poznavackaConfig", {
     setList: [
       {name: "mekkysi", desc: "Měkkýši (Pracuje se na tom)", enabled: false, file: "clenovci.json"},
-      {name: "clenovci", desc: "Členovci", enabled: true, file: "clenovci.json"}
+      {name: "clenovci1", desc: "Členovci 1. část", enabled: false, file: "clenovci1.json"},
+      {name: "clenovci2", desc: "Členovci 2. část", enabled: false, file: "clenovci2.json"},
+      {name: "clenovci3", desc: "Členovci 3. část", enabled: false, file: "clenovci3.json"},
+      {name: "clenovci", desc: "Členovci vše", enabled: true, file: "clenovci.json"}
     ]
 });
 
