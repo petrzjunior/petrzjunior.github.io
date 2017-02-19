@@ -4,15 +4,15 @@ poznavackaApp.config(['$routeProvider',
     function ($routeProvider) {
         $routeProvider.
             when('/poznavacka', {
-                templateUrl: '/html/poznavacka.html',
+                templateUrl: 'html/poznavacka.html',
                 controller: 'poznavackaCtrl'
             }).
             when('/galerie', {
-                templateUrl: '/html/galerie.html',
+                templateUrl: 'html/galerie.html',
                 controller: 'galerieCtrl'
             }).
             otherwise({
-                redirectTo: '/poznavacka'
+                redirectTo: 'poznavacka'
             })
     }
 ]);
