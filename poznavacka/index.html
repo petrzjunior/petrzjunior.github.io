@@ -23,8 +23,8 @@
       <p class="lead">stvořil Petr Zahradník</p>
     </div>
     <ul class="navbar">
-      <li><a href="#!/poznavacka" ng-class="{ navThis: isActive('/poznavacka') }">Poznávačka</a></li>
-      <li><a href="#!/galerie" ng-class="{ navThis: isActive('/galerie') }">Galerie</a></li>
+      <li ng-class="{ navThis: isActive('/poznavacka') }"><a href="#!/poznavacka">Poznávačka</a></li>
+      <li ng-class="{ navThis: isActive('/galerie') }"><a href="#!/galerie">Galerie</a></li>
     </ul>
     <div ng-view></div>
   </div>
