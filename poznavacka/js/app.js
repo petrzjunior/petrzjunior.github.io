@@ -27,7 +27,8 @@ poznavackaApp.constant("poznavackaConfig", {
         { name: "clenovci1", desc: "Členovci 1. část", enabled: false, file: "clenovci1.json" },
         { name: "clenovci2", desc: "Členovci 2. část", enabled: false, file: "clenovci2.json" },
         { name: "clenovci3", desc: "Členovci 3. část", enabled: false, file: "clenovci3.json" },
-        { name: "clenovci", desc: "Členovci vše", enabled: true, file: "clenovci.json" }
+        { name: "clenovci", desc: "Členovci vše", enabled: false, file: "clenovci.json" },
+        { name: "ryby", desc: "Ryby a paryby", enabled: true, file: "ryby.json" }
     ]
 });
 

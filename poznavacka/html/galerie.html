@@ -10,9 +10,11 @@
         </ul>
     </div>
     <div class="gallery">
-        <figure class="gallery" ng-repeat="img in imgList" id="placeholder">
-            <img ng-src="{{img.Image}}" alt="{{img.Name}}">
-            <figcaption class="copyright">{{img.Name}}</figcaption>
-        </figure>
+        <div class="gallery-block" ng-repeat="img in imgList" id="placeholder">
+            <figure class="gallery-image">
+                <img ng-src="{{img.Image}}" alt="{{img.Name}}">
+                <figcaption class="copyright">{{img.Name}}</figcaption>
+            </figure>
+        </div>
     </div>
 </div>
