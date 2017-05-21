@@ -1,5 +1,5 @@
 poznavackaApp.controller("galerieCtrl", function($scope, $http, loaderService) {
-    ga('set', 'page', '/galerie');
+    ga('set', 'page', '/poznavacka/galerie');
     ga('send', 'pageview');
     $scope.setList = [];
     $scope.imgList = [];

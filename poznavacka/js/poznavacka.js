@@ -1,5 +1,5 @@
 poznavackaApp.controller("poznavackaCtrl", function($scope, $http, loaderService) {
-    ga('set', 'page', '/poznavacka');
+    ga('set', 'page', '/poznavacka/poznavacka');
     ga('send', 'pageview');
     console.log("poznavacka");
     $scope.setList = [];
