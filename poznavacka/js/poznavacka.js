@@ -1,4 +1,7 @@
 poznavackaApp.controller("poznavackaCtrl", function($scope, $http, loaderService) {
+    ga('set', 'page', '/poznavacka');
+    ga('send', 'pageview');
+    console.log("poznavacka");
     $scope.setList = [];
     $scope.imgList = [];
 
