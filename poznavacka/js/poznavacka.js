@@ -1,7 +1,6 @@
 poznavackaApp.controller("poznavackaCtrl", function($scope, $http, loaderService) {
     ga('set', 'page', '/poznavacka/poznavacka');
     ga('send', 'pageview');
-    console.log("poznavacka");
     $scope.setList = [];
     $scope.imgList = [];
 
@@ -33,7 +32,7 @@ poznavackaApp.controller("poznavackaCtrl", function($scope, $http, loaderService
         $scope.thisOne = $scope.imgList[Math.floor((Math.random() * ($scope.imgList.length - 1)) + 0)];
         if (setsChanged) {
             var selectedString = selectedSets.map(function(obj) { return obj.name; }).join(",");
-            ga('send', 'event', 'Poznávačka', 'Změna kategorie', selectedString);
+            ga('send', 'event', 'Poznavacka', 'zmena-kategorie', selectedString);
             setsChanged = false;
         }
     };
