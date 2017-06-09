@@ -1,4 +1,4 @@
-var poznavackaApp = angular.module("poznavackaApp", ["ngRoute"]);
+﻿var poznavackaApp = angular.module("poznavackaApp", ["ngRoute"]);
 
 poznavackaApp.config(['$routeProvider',
     function($routeProvider) {
@@ -30,7 +30,7 @@ poznavackaApp.constant("poznavackaConfig", {
         { name: "clenovci", desc: "Členovci vše", enabled: false, file: "clenovci.json" },
         { name: "ryby", desc: "Ryby a paryby", enabled: false, file: "ryby.json" },
         { name: "plazi", desc: "Obojživelníci a plazi", enabled: false, file: "plazi.json" },
-        { name: "ptaci", desc: "Práci", enabled: true, file: "ptaci.json" }
+        { name: "ptaci", desc: "Ptáci", enabled: true, file: "ptaci.json" }
     ]
 });
 
