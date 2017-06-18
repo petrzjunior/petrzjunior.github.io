@@ -24,13 +24,14 @@ poznavackaApp.factory("loaderService", function(poznavackaConfig) {
 poznavackaApp.constant("poznavackaConfig", {
     setList: [
         { name: "mekkysi", desc: "Měkkýši (Pracuje se na tom)", enabled: false, file: "clenovci.json" },
-        { name: "clenovci1", desc: "Členovci 1. část", enabled: false, file: "clenovci1.json" },
+        /*{ name: "clenovci1", desc: "Členovci 1. část", enabled: false, file: "clenovci1.json" },
         { name: "clenovci2", desc: "Členovci 2. část", enabled: false, file: "clenovci2.json" },
-        { name: "clenovci3", desc: "Členovci 3. část", enabled: false, file: "clenovci3.json" },
+        { name: "clenovci3", desc: "Členovci 3. část", enabled: false, file: "clenovci3.json" },*/
         { name: "clenovci", desc: "Členovci vše", enabled: false, file: "clenovci.json" },
         { name: "ryby", desc: "Ryby a paryby", enabled: false, file: "ryby.json" },
         { name: "plazi", desc: "Obojživelníci a plazi", enabled: false, file: "plazi.json" },
-        { name: "ptaci", desc: "Ptáci", enabled: true, file: "ptaci.json" }
+        { name: "ptaci", desc: "Ptáci", enabled: false, file: "ptaci.json" },
+        { name: "savci", desc: "Savci", enabled: true, file: "savci.json" }
     ]
 });
 
